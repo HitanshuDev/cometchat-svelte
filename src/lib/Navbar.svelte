@@ -4,7 +4,7 @@
   import Icon from "@iconify/svelte";
   import { onMount } from 'svelte';
   blok = null;
-  import { storyblok } from "$lib/storyblok.cjs";
+  import { storyblok } from "$lib/storyblok.js";
 
   // const res = storyblok.get("cdn/stories/navbar");
   // blok = res.data.story.content;

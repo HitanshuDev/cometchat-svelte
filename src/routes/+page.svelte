@@ -10,7 +10,7 @@
 
   let openIndex = null; // equivalent of useState(null)
 
-  
+  console.log('ENV CHECK:', import.meta.env.PUBLIC_STORYBLOK_API_KEY);
 </script>
 
 <div class="bg-[#0D0B1F] text-white">
