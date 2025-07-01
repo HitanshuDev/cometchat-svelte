@@ -25,8 +25,8 @@
       {/each}
     </nav>
 
-    <!-- Right Section -->
-    <div class="flex items-center space-x-4">vxcv
+    <!-- Right Section -->ddd
+    <div class="flex items-center space-x-4">
       <a
         href="/"
         class="text-gray-300 hover:text-white transform transition-transform duration-200 hover:scale-110"
