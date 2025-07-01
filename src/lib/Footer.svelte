@@ -1,6 +1,6 @@
 <script>
 
-  import { onMount } from 'svelte';
+//   import { onMount } from 'svelte';
   import Icon from "@iconify/svelte";
   
   let openSection = null;
@@ -81,9 +81,9 @@
 
   let currentYear;
 
-  onMount(() => {
-    currentYear = new Date().getFullYear();
-  });
+//   onMount(() => {
+//     currentYear = new Date().getFullYear();
+//   });
 </script>
 
 <footer class="text-white p-6">
@@ -137,7 +137,7 @@
     </div>
 
     <div class="text-gray-500 text-sm flex flex-row items-center space-x-6">
-      <p>&copy; {currentYear} CometChat</p>
+      <p>&copy; {currentYear = new Date().getFullYear()} CometChat</p>
       <a href="/" class="hover:text-white">Terms of Use</a>
       <a href="/" class="hover:text-white">Privacy Policy</a>
     </div>

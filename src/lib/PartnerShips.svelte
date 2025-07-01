@@ -1,5 +1,5 @@
 <script>
-  import { FaCheckCircle, FaCodeBranch, FaRocket } from 'svelte-icons/fa';
+  // import { FaCheckCircle, FaCodeBranch, FaRocket } from 'svelte-icons/fa';
   import Icon from '@iconify/svelte';
 
   const partnerships = [
