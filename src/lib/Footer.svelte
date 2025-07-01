@@ -107,12 +107,12 @@
   <div class="lg:hidden space-y-4 max-w-2xl mx-auto">
     {#each footerData as section}
       <div>
-        <div class="flex justify-between items-center cursor-pointer">
+        <div class="flex justify-between items-center cursor-pointer ">
           <h4  class="font-semibold text-[#6852D6]">{section.title}</h4>
           {#if openSection === section.title}
-            <Icon icon="mingcute:up-fill" width="24" height="24" class="text-[#6852D6]"/>
+            <button on:click={() => toggleSection(section.title)}><Icon icon="mingcute:up-fill" width="24" height="24" class="text-[#6852D6]"/></button>
           {:else}
-            <Icon icon="mingcute:down-fill" width="24" height="24" class="text-[#6852D6]" />
+            <button on:click={() => toggleSection(section.title)}><Icon icon="mingcute:down-fill" width="24" height="24" class="text-[#6852D6]" /></button>
           {/if}
         </div>
         {#if openSection === section.title}
