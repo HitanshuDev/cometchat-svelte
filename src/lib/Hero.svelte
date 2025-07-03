@@ -6,7 +6,7 @@
 <div class="relative min-h-screen bg-gradient-to-b from-[#1B1A2D] to-[#0D0B1F] text-white overflow-hidden">
 
   <!-- Stars Background -->
-  <div class="absolute inset-0 z-0">
+  <div class="absolute inset-0 z-50 pointer-events-none">
     <img src="https://a.storyblok.com/f/285465492957969/1389x646/d933fbf46f/stars.svg" alt="Stars background" class="w-full h-full object-cover" />
   </div>
 

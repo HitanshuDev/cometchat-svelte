@@ -15,7 +15,7 @@
       // console.log(res);
       //
       blok = res.data.story.content.body[0];
-      console.log(blok);
+      // console.log(blok);
     } catch (err) {
       console.error("Storyblok fetch failed:", err);
     }
@@ -23,7 +23,7 @@
 </script>
 
 {#if blok}
-  <header class="text-white shadow-md">
+  <header class="z-50 text-gray-300 shadow-md">
     <div class="max-w-screen-xl mx-auto px-4 py-4 flex justify-between items-center">
       <!-- Logo -->
       <div class="text-2xl font-semibold">
@@ -36,7 +36,7 @@
         {#each blok.nav_items || [] as item}
           <a
             href="/"
-            class="text-gray-300 hover:text-white transform transition-transform hover:scale-110 duration-200"
+            class="hover:text-white transform transition-transform hover:scale-110 duration-200"
           >
             {item}
           </a>
